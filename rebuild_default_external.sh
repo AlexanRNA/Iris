@@ -39,7 +39,7 @@ mkdir build
 cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 make
-cp bin/racon ../../rebuilt_external_scripts
+cp build/bin/racon ../../../rebuilt_external_scripts
 cd ../..
 
 cp rebuilt_external_scripts/* external_scripts/
